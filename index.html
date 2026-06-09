@@ -1,1 +1,39 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa Europy – Lidka i Marek</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mapa Europy</h1>
+    <p>Wspólne kolorowanie podróży Lidki i Marka</p>
+  </header>
 
+  <main>
+    <section class="panel">
+      <button id="loginBtn">Zaloguj przez Google</button>
+      <button id="logoutBtn" hidden>Wyloguj</button>
+      <p id="userInfo">Nie zalogowano</p>
+
+      <label>
+        Wybierz kolor:
+        <input type="color" id="colorPicker" value="#7cc6ff" />
+      </label>
+    </section>
+
+    <section class="map-wrap">
+      <div id="map">
+        <p class="placeholder">
+          Tu będzie dokładna mapa Europy SVG z krajami, w tym osobno:
+          Anglia, Szkocja, Walia i Irlandia Północna.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

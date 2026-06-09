@@ -83,3 +83,11 @@ label {
   text-align: center;
   color: #6b7280;
 }
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  font-size: 14px;
+  color: #4b5563;
+}
